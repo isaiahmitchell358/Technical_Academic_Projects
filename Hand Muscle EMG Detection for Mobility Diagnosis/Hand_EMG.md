@@ -18,21 +18,29 @@ Fig. 1 Circuit diagram of the ECG and EMG labs
 
 Fig. 2 The circuit diagram for the muscle contraction EMG
 
+<img width="710" height="461" alt="Screenshot 2026-07-02 at 12 37 07 PM" src="https://github.com/user-attachments/assets/26fcebcf-72cb-4a32-a10b-ba47092655ee" />
+
 
 Fig. 3 The circuit design with all the properties mentioned in the Methods section
 
+<img width="239" height="320" alt="Screenshot 2026-06-28 at 5 32 40 PM" src="https://github.com/user-attachments/assets/96561ae9-4536-449b-b7cb-b8c20831a95b" />
 
 Results
-Fig. 4 above shows the oscilloscope reading the signals of voltage differences that occur while there is muscle activation acting on the electrode. This signal was obtained by the circuit shown in the figure above in the Methods section which uses the LM741 and AD622 with a gain resistor of 330Ω.
+Fig. 4 below shows the oscilloscope reading the signals of voltage differences that occur while there is muscle activation acting on the electrode. This signal was obtained by the circuit shown in the figure above in the Methods section which uses the LM741 and AD622 with a gain resistor of 330Ω.
 
 Fig. 4 The EMG reading of different levels of muscle contractions
- 
+
+<img width="700" height="400" alt="Screenshot 2026-07-02 at 3 44 14 PM" src="https://github.com/user-attachments/assets/0c6aa0b8-642a-4786-91f0-55c20326f22d" />
 
 The figures below show the different levels of light that the LED produces when the user applies the different amounts of muscle contraction. For example, Fig. 5 shows that a muscle contraction of a higher level produces a higher voltage difference resulting in a brighter light from the LED, and Fig. 6 shows that a lower level of muscle contraction produces a lower voltage difference resulting in a dimmer light.
 Fig. 5 High level muscle contraction 
 
+<img width="700" height="391" alt="Screenshot 2026-07-02 at 3 45 42 PM" src="https://github.com/user-attachments/assets/c08d18dc-d667-45de-95f7-6c97bd9fbcd4" />
+
+
 Fig. 6 Low level muscle contraction
 
+<img width="701" height="397" alt="Screenshot 2026-07-02 at 3 46 07 PM" src="https://github.com/user-attachments/assets/01b1e873-3c81-4d0e-8a6c-95e8813c7117" />
 
 Discussion:
 
