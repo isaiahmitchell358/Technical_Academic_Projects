@@ -64,6 +64,7 @@ For future work, the muscle activations can also be used to measure the strain t
 The main goal of this project was to see and measure the muscle activations of the hand over time by also using Morse code to communicate. The project was overall successful as the LED  activated and stayed on as the pressure was applied, and turned off as soon as there was no pressure applied. As shown in the figure above from the results, the oscilloscope shows a wave when pressure is applied and when the hand is still and not pressing on the electrode, there is no noise and it is completely flat, and the LED is turned off. 
 
 **Conclusion:**
+
 This experiment was performed to test a model for a communication device that could be used for people who suffered from impaired speech or diseases that limited their ability to engage their vocal cords. The main goal was to provide these people with the ability to communicate with friends or loved ones via morse code, a language that can be easily accessed online. The results of the experiment showed that the LED responded promptly to the muscle activations performed by the user of the device. Also, the prompt response of the LED shows that the device can be used in order to apply it to morse code. In summary, the experiment was a success and the device can be used to sufficiently communicate.
 
 
