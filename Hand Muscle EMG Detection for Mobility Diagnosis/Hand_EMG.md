@@ -1,11 +1,14 @@
 **Abstract:**
+
 Verbal communication is the main method that people use in order to converse and discuss topics with each other. However, an issue rises when people suffer from injuries or diseases that give them impaired speech. The goal of this project is to address that issue by developing a way to allow them to use Morse code as a form of communication via an LED. The leads are connected to the circuit which uses EMG signals from hand muscles for simple, intentional communication via Morse code. The circuit amplifies and filters the signals with LM741 and AD622 amplifiers for clear, noise-free outputs. The experiment makes use of resistors, capacitors, and an Arduino script which were adjusted in order to optimize the usage of the circuit. The LED promptly responds to hand muscle contractions allowing for people to produce a short flash of light (representing a dot) and a long flash of light (representing a dash). 
 
 **Introduction:**
+
 For the case of this project, the skin electrodes are placed in the palm of the hand and when the electrode is squeezed by the hand, the LED lights up. Somebody who can not speak can use the system to speak in Morse code using the electrodes with the LED. For example, if someone has locked-in syndrome, they will be unable to speak or move as well so the morse code communication can be proven useful. If someone also has muscular dystrophy, they have little mobility and have difficulty speaking. This system can be used to get the signals from the muscle activation and visualize the amount of pressure the subject is able to apply to light up the LED.
 The operational amplifier used in the lab, LM741, is set to be a high-gain voltage amplifier and is DC-coupled. The LM741 and AD622 will be built on the bread board and used with a gain resistor. LM741 uses negative feedback allowing for a high gain that will amplify the voltage difference between two input signals and produce a precise controlled output. Also, the LM741 has “strong immunity” (Quarktwin) to noise disturbances, which allows for accurate measurements of the voltage differences and filters out unwanted noise and interference. The AD622 takes the weak EMG signal and amplifies it and removes DC offset (flat voltage) from signal C5 and R4 shown in Fig. 1. EMG (Electromyography) built from this is used to record the muscle's electrical activity. In addition, an Arduino is coded to control an LED that is connected to the breadboard. The output EMG signal travels to the Arduino and triggers the LED activation whenever it detects a spike, which in this case is when the hand applies enough pressure to the electrode.
  
 **Methods:**
+
 The circuit uses a power supply set at 18V as its source, and the proper amplifiers, LM741 and AD622, based on the ECG and EMG labs that have resistors and capacitors appropriate for a high pass filter as shown in Fig. 1. The resistors follow the same configuration as in Fig. 2 each having 100kΩ, and the capacitors were implemented in a similar fashion each being 22pF and 10nF for their respective amplifiers as shown in the same figure.
 
 
@@ -25,11 +28,13 @@ Fig. 3 The circuit design with all the properties mentioned in the Methods secti
 
 <img width="337" height="184" alt="Screenshot 2026-06-28 at 5 31 59 PM" src="https://github.com/user-attachments/assets/32753ebe-f048-4454-9690-d73b206fe806" />
 
+
 **Code:**
 
 Initial values are set for the ledPin, the threshold, the sensorValue, and the prevValue. The setup defines the ledPin as the output. The Serial.begin prepares the arduino for communication with the computer. The loop continuously reads the new input and outputs a signal into the LED which turns on if the threshold is met.
 
 <img width="508" height="420" alt="Screenshot 2026-06-28 at 4 23 55 PM" src="https://github.com/user-attachments/assets/9b78cf29-bdab-491b-8dd8-6d8f936439fd" />
+
 
 **Results:**
 
@@ -49,6 +54,7 @@ Fig. 6 Low level muscle contraction
 
 <img width="701" height="397" alt="Screenshot 2026-07-02 at 3 46 07 PM" src="https://github.com/user-attachments/assets/01b1e873-3c81-4d0e-8a6c-95e8813c7117" />
 
+
 **Discussion:**
 
 There were also some limitations that occurred, which can be improved on in later experiments. One limitation is that the gel electrodes do not stay on properly in the hand. If the electrodes are designed to fit more properly in the palm of the hand, it would work more effectively and cause less noise activation from the electrode moving around in the hand. However, when keeping the hand still, there would be no noise, and it would only activate when pressure is applied to the electrode. Experimentation can also be done in other placements of the hand, such as by having the electrode placed on the wrist to get certain muscle activations of each individual finger. This would give a better understanding of the subject’s muscle activation over time in each specific part of the hand rather than just the palm. However, this is beneficial because there can be certain subjects that play sports and suffer an injury and are unable to move every finger so they can only move a part of their hand. 
@@ -60,7 +66,7 @@ The main goal of this project was to see and measure the muscle activations of t
 This experiment was performed to test a model for a communication device that could be used for people who suffered from impaired speech or diseases that limited their ability to engage their vocal cords. The main goal was to provide these people with the ability to communicate with friends or loved ones via morse code, a language that can be easily accessed online. The results of the experiment showed that the LED responded promptly to the muscle activations performed by the user of the device. Also, the prompt response of the LED shows that the device can be used in order to apply it to morse code. In summary, the experiment was a success and the device can be used to sufficiently communicate.
 
 
-Appendix:
+**Appendix:**
 
 Video Proof
 https://drive.google.com/file/d/1ch1LrWxg5AxLsXp0BpFu-OPgDI49JbdI/view?usp=sharing
