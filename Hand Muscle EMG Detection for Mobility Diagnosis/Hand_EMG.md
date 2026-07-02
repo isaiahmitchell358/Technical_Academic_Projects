@@ -29,6 +29,7 @@ Fig. 3 The circuit design with all the properties mentioned in the Methods secti
 <img width="337" height="184" alt="Screenshot 2026-06-28 at 5 31 59 PM" src="https://github.com/user-attachments/assets/32753ebe-f048-4454-9690-d73b206fe806" />
 
 
+
 **Code:**
 
 Initial values are set for the ledPin, the threshold, the sensorValue, and the prevValue. The setup defines the ledPin as the output. The Serial.begin prepares the arduino for communication with the computer. The loop continuously reads the new input and outputs a signal into the LED which turns on if the threshold is met.
