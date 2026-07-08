@@ -16,6 +16,6 @@ I led the assembly of a three-lead EMG interface using LM741 and AD622 operation
 
 **Classification of Benign and Malignant Tumors Using Supervised and Unsupervised Learning**
 
-The goal was to train a machine learning model to take a dataset of breast cancer cells and classify them between benign and malignant based on the factors represented in the datasheet
+The goal was to train a machine learning model to take a dataset of breast cancer cells and classify them between benign and malignant based on the factors that were presented.
 
 I implemented both supervised and unsupervised learning frameworks. By utilizing sigmoid activation and binary cross-entropy loss, I focused on differentiating between benign and malignant tumors while minimizing false-positive rates. Also, I implemented Principal Component Analysis (PCA) to perform dimensionality reduction, isolating distinct clusters for benign and malignant data points within an unsupervised framework.
