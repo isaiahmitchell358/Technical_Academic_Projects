@@ -1,4 +1,4 @@
-# Photoelectroglottography-Device
+# Technical and Academic Projects
 
 
 **Photoelectroglottography Device**
