@@ -2,6 +2,7 @@
 
 
 **Photoelectroglottography Device**
+
 My team and I had to create a low-cost and accessible device that served as an alternative to current procedures of diagnosing vocal disorder and analyzing the behaviors of phonation. Current procedures, such as laryngoscopy, are invasive and expensive. Therefore, we wanted to develop a method where doctors can perform diagnoses on patients more efficiently.
 
 I built a custom infrared sensor circuit and a transimpedance amplifier stage to capture vocal fold transitions (see figure ). When the team faced a bottleneck in signal amplification, I experimented and tested with a range of different resistance values to enhance the signal gain. This technical pivot ensured the device returned a strong enough signal to the Arduino code (see figure ) to graph and analyze the behavior of the glottis during speech. Without this improvement, the signal returned would not be detectable and difficult to differentiate between normal and abnormal glottal behavior.
