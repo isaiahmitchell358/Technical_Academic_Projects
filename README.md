@@ -11,7 +11,7 @@ Also, I constructed a durable hardware interface by soldering IR sensors and emi
 
 **Hand Muscle EMG Detection for Mobility Diagnosis**
 
-For this project, I created a device that 1) for patients suffering from neurogenerative diseases, assesses the health and mobility of a patient's hand; 2) for patients with speech disorders, aids in communication via Morse Code.
+For this project, I created a device that 1) for patients suffering from neurodegenerative diseases, assesses the health and mobility of a patient's hand; 2) for patients with speech disorders, aids in communication via Morse Code.
 
 I assembled a three-lead EMG interface using LM741 and AD622 <a href="https://github.com/isaiahmitchell358/Technical_Academic_Projects/blob/main/Hand%20Muscle%20EMG%20Detection%20for%20Mobility%20Diagnosis/HandEMG_Circuit.jpg" target="_blank">operational amplifiers</a> to ensure high-precision signal conditioning when interfacing with human subjects. To translate these physiological signals into actionable data, I developed custom <a href="https://github.com/isaiahmitchell358/Technical_Academic_Projects/blob/main/Hand%20Muscle%20EMG%20Detection%20for%20Mobility%20Diagnosis/HandEMG.ino" target="_blank">Arduino firmware</a> to distinguish between discrete physiological states, such as a resting palm versus a clenched fist. By integrating a responsive <a href="https://drive.google.com/file/d/1ch1LrWxg5AxLsXp0BpFu-OPgDI49JbdI/view?usp=sharing" target="_blank">LED feedback system</a> for real-time visual quantification, I refined the signal-to-noise ratio to ensure accurate detection across a gradient of muscle tension and to display Morse Code. 
 
